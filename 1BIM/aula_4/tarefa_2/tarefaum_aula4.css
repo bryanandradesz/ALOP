@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(https://img.freepik.com/vetores-premium/ilustracao-de-padrao-de-fundo-para-o-tema-medico_554445-1006.jpg); 
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    align-items: center;
+    justify-items: center;
+    border-radius: 10px;
+    display: flex;
+}

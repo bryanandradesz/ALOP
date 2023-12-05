@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/projeto_aula6/css/style.css">
+        <link rel="icon" href="/projeto_aula6/image/balanca.png" type="image/png">
+        <script src="/scripts/index.js" defer></script>
+        <title>Programa Peso Ideal</title>
+</head>
+<body>
+
+    <h1>Programa Peso Idea</h1>
+<form action="">
+    <p>Nome:
+        <input type="text" id="inNome" required>
+    </p>
+<div class="radio-inputs">
+   <input class="radio-input" type="radio" name="gender" id="female" value="female">
+   <span> Mulher</span>
+   <input type="radio" name="gender" id="male" value="male">
+   <span>
+    Homen
+   </span>
+</div>
+    <p>Altura (m):
+        <input type="number" min="0" step="0.01" id="inAltura" required>
+    </p>
+
+
+        <button type="submit" onclick="calcularPesoIdeal()"> 
+            <span>
+                Calcular
+            </span>
+        </button>
+        <input type="reset" value="Limpar">
+    <center>
+        <div class="resultados">
+            <h2 id="resultado">
+            <label id="fim">
+                <h1></h1>
+                Clique para calcular
+            </label>
+        </h2>
+        </div>
+    </center>
+</form>
+<h3></h3>
+</body>
+</html>

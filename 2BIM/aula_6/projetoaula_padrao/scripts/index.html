@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/ALOP - 1INFO/2BIM/aula_6/projeto_aulaseis_feia/css/style.css">
+        <link rel="icon" href="/image/peso_ideal.png" type="image/png">
+        <script src="/scripts/index.js" defer></script>
+        <title>Programa Peso Ideal</title>
+</head>
+<body>
+    <img src="/image/peso_ideal.png" alt="Balança Peso">
+    <h1>Calculo Peso Ideal</h1>
+    <form action="">
+        <p>Nome:
+            <input type="text" id="inNome" required>
+        </p>
+        <p>Sexo:
+            <input type="radio" name="sexo" id="inMasculino" required> Masculino
+            <input type="radio" name="sexo" id="inFeminino" required> Feminino
+        </p>
+        <p>Altura (M):
+            <input type="number" min="0" step="0.01" id="inAltura" required>
+        </p>
+        <input type="submit" value="Calcular">
+        <input type="reset" value="Limpar">
+
+    </form>
+    <h3></h3>
+    <script src="/scripts/index.js"></script>
+</body>
+</html>

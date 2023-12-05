@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="inInput" placeholder="Aqui">
+    <input type="submit" value="Clique Aqui" id="inBotao">
+    <h1 id="outResp"></h1>
+</body>
+</html>
+
+<script>
+   const btn = document.getElementById("inBotao")
+   const resp = document.getElementById("outResp")
+    btn.addEventListener("submit", (e) => {
+        const nome = "sim"
+        resp.innerText = nome
+    })
+</script>

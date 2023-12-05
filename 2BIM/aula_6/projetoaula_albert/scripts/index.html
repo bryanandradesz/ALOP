@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="icon" href="/image/peso_ideal.png" type="image/png">
+        <script src="/scripts/index.js" defer></script>
+        <title>Programa Peso Ideal</title>
+</head>
+<body>
+    
+    <h1>Peso Ideal / Peso Ideal Ajustado</h1>
+    <br>
+    <h3>Instruções:</h3>
+    <hr>
+    <p>Masculino: Peso Ideal: 52 + (0.75 * (altura - 152.4))</p>
+    <p>Feminino: Peso Ideal: 49 + (0.67 * (altura - 152.4))</p>
+    <p>Peso Ideal Ajustado (kg) = (Peso Atual (kg) - Peso Ideal (kg)) x 0,25 + Peso Ideal (kg)</p>
+    <br>
+    <h3>Preencha os campos</h3>
+    <hr>
+    <div class="ola">
+        <form>
+            <p>Sexo:
+                <input type="radio" name="sexo" id="inMasculino" required> Masculino
+                <input type="radio" name="sexo" id="inFeminino" required> Feminino
+            </p>
+            <hr>
+            <p>Altura:
+                <input type="number" min="0" step="0.01" id="inAltura" required> Em centimetros (cm)
+            </p>
+            <hr>
+                <p>Peso:
+                    <input type="text" id="inPeso" required> Em Quilos (kg)
+                </p>
+            <hr>
+            <div class="fundobtn">
+
+                <button>Calcular</button>
+            </div>
+            </form>
+    </div>
+    <h3></h3>
+    <script src="/scripts/index.js"></script>
+</body>
+</html>

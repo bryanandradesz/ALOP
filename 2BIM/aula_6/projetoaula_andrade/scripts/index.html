@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="icon" href="/image/balafoto.png" type="image/png">
+        <script src="/scripts/index.js" defer></script>
+        <title>Programa Peso Ideal</title>
+    </head>
+    <header>
+        <div class="logoifsp">
+        <img src="/image/ifsp.png" alt="ifsplogo">
+        </div>
+    </header>
+
+    <body>
+        <nav>
+    <h1>
+        a
+    </h1>
+</nav>
+    <img src="/image/titiform.png" alt="Balança Peso" class="texto">
+    <div class="titulo">
+        <h1></h1>
+    </div>
+    <div class="container">
+        <div class="form2">
+        <form action="">
+            <p>Nome:
+            <div class="input-container">
+                <input placeholder="Nome" class="input-field" type="text" id="inNome" required>
+                <label for="input-field" class="input-label"> </label>
+                <span class="input-highlight"></span>
+            </div>
+
+            </p>
+            <p>Altura:
+            <div class="input-container">
+                <input placeholder="Altura" class="input-field" type="text" id="inAltura" required>
+                <label for="input-field" class="input-label"> </label>
+                <span class="input-highlight"></span>
+            </div>
+            </p>
+            <p>
+            <div class="mydict">
+                <div>
+                    <label>
+                        <input type="radio" name="radio" checked="" id="inFeminino">
+                        <span>Mulher</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="radio" id="inMasculino">
+                        <span>Homem</span>
+                    </label>
+
+
+                </div>
+            </div>
+            </p>
+
+            <button class="button" type="submit" onclick="mostrarContainer()"> Calcular </button>
+            <button class="button" type="reset" onclick="limparCampos()"> Limpar </button>
+
+        </form>
+        
+    </div>
+</div>
+<h3 style="display: none;"></h3>
+<script src="/scripts/index.js"></script>
+</body>
+
+
